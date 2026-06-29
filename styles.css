@@ -395,3 +395,61 @@ body {
         font-size: 15px;
     }
 }
+ /* conatact page css */
+.contact{
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-title{
+    font-family: "Orbitron", sans-serif;
+    font-size: 32px;
+    color: #51326D;
+    margin-bottom: 10px;
+}
+
+.contact-subtitle{
+    font-family: "Poppins", sans-serif;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    background: #FFF4C6;
+}
+
+.contact-form textarea{
+    resize: vertical;
+}
+
+.contact-form button{
+    background: #CF1543;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.contact-form button:hover{
+    background: #b01039;
+    transform: scale(1.03);
+}
