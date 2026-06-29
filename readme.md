@@ -114,6 +114,9 @@ Simply open `index.html` in your browser.
 
 ![Products](screenshots/productlist.png)
 
+### Mobile View
+
+![Mobile](screenshots/mobile.png)
 ---
 
 ## 👨‍💻 Author
