@@ -409,7 +409,7 @@ body {
    justify-content: center;
      margin: 60px;
   border-radius: 40px;
-   text-align: center;
+
 }
 ul{
   list-style: none;
@@ -440,15 +440,25 @@ h2{
 .about-text{
     font-family: "Orbitron", sans-serif;
 }
-.cards{
-   width: 290px;
-   box-shadow: 0px 1px 5px rgb(65, 62, 62);
-   padding: 20px;
-   border-radius: 20px 0px;
-   border: none;
-   transition: .4s ease;
 
+.cards {
+    width: 100%;
+    max-width: 290px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px 0;
+    border: none;
+    box-shadow: 0 1px 5px rgb(65, 62, 62);
+    transition: 0.4s ease;
 }
+@media (max-width: 320px) {
+    .cards {
+        max-width: 100%;
+        margin: 0 10px;
+        padding: 20px;
+    }
+}
+
 .mission{
     text-align: center;
     margin: 30px;
@@ -461,7 +471,7 @@ h2{
         90deg,
         #8756b2,
         #c33a5a,
-        #b3951d,
+        #625212,
         #b595d1
     );
 
@@ -487,18 +497,28 @@ h2{
      font-family: "Poppins", sans-serif;
       padding: 20px;
 }
-.img{
-    justify-content: center;
+.img {
     display: flex;
-    text-align: center;
-    transition: .4s all;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;      
+    gap: 30px;
+    padding: 20px;
 }
-img{
+
+.img img {
+    width: 100%;
+    max-width: 400px;   
+    height: auto;         
     border-radius: 20px;
-    transition: .3s ease;
-    box-shadow: 0px 3px 10px;
-    
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+}
+
+
+
+.img img:hover {
+    transform: scale(1.05);
 }
 img:hover{
    transform: translateY(-20px);
@@ -529,7 +549,7 @@ img:hover{
     color: #51326D;
     transform: translateX(20px);
 
-
+}
 
 .home-hero{
     min-height:85vh;
