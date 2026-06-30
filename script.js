@@ -1,10 +1,10 @@
 const backgrounds = [
-  "img-bg.jpg",
-  "bg1.png",
-  "bg2.png",
-  "bg3.png",
-  "bg4.png",
-  "bg5.png",
+  "/bg-img/img-bg.jpg",
+  "/bg-img/bg1.png",
+  "/bg-img/bg2.png",
+  "/bg-img/bg3.png",
+  "/bg-img/bg4.png",
+  "/bg-img/bg5.png",
 ];
 async function getProducts() {
   const url = "https://dummyjson.com/products";
