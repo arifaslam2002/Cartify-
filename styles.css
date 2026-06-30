@@ -396,6 +396,138 @@ body {
     }
 }
 
+#about{
+    background-color: #F2C923;
+    padding: 50px;
+    margin-top: 20px;
+     animation:fadeUp 3s ease;
+}
+.card {
+  display: flex;
+ flex-wrap: wrap;
+  gap: 30px;
+   justify-content: center;
+     margin: 60px;
+  border-radius: 40px;
+   text-align: center;
+}
+ul{
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+ 
+}
+.head{
+      background:linear-gradient(
+        90deg,
+        #8756b2,
+        #d14e6d,
+        #987e14,
+        #8246b6
+    );
+
+    background-size:300%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+      animation:
+        gradientMove 5s linear infinite,
+        titlePop 2s ease
+}
+h2{
+ font-family: "Orbitron", sans-serif;
+ color: #51326D;
+
+}
+.about-text{
+    font-family: "Orbitron", sans-serif;
+}
+.cards{
+   width: 290px;
+   box-shadow: 0px 1px 5px rgb(65, 62, 62);
+   padding: 20px;
+   border-radius: 20px 0px;
+   border: none;
+   transition: .4s ease;
+
+}
+.mission{
+    text-align: center;
+    margin: 30px;
+}
+.thanks{
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+        background:linear-gradient(
+        90deg,
+        #8756b2,
+        #c33a5a,
+        #b3951d,
+        #b595d1
+    );
+
+    background-size:300%;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+      animation:
+        gradientMove 8s linear infinite,
+        titlePop 2s ease
+}
+.cards:hover{
+    box-shadow: 0px 5px 6px black;
+    transform:scale(1.05);
+  color: #51326D;
+}
+.list:hover{
+    color: #51326d;
+}
+.cards p{
+    font-family:  "Poppins", sans-serif;
+}
+.list{
+     font-family: "Poppins", sans-serif;
+      padding: 20px;
+}
+.img{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    transition: .4s all;
+    gap: 50px;
+}
+img{
+    border-radius: 20px;
+    transition: .3s ease;
+    box-shadow: 0px 3px 10px;
+    
+}
+img:hover{
+   transform: translateY(-20px);
+   
+}
+.cards p{
+    text-align: justify;
+}
+.about-features{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feature{
+    padding: 10px;
+    background: linear-gradient(transparent, rgba(244, 153, 26, 0.249), rgba(168, 132, 2, 0));
+   border-radius: 0px 20px;
+  transition: .4s ease all;
+}
+.feature h3{
+    color: #8246b6;
+}
+.feature:hover{
+    color: #51326D;
+    transform: translateX(20px);
 
 
 
